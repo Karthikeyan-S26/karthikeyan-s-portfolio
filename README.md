@@ -25,7 +25,7 @@ To run this project locally:
 
 ```sh
 # Clone the repository
-git clone <YOUR_REPOSITORY_URL>
+git clone https://github.com/Karthikeyan-S26/portfolio-website.git
 
 # Navigate to the project directory
 cd portfolio-website
@@ -39,7 +39,7 @@ npm run dev
 
 ## Deployment
 
-This site can be deployed to any static hosting service like Netlify, Vercel, or GitHub Pages.
+This site is deployed using GitHub Pages.
 
 ## Contact
 
@@ -47,3 +47,4 @@ Feel free to reach out to me at:
 - Email: karthisenthil026@gmail.com
 - GitHub: github.com/Karthikeyan-S26
 - LinkedIn: linkedin.com/in/karthikeyan-s-tech
+

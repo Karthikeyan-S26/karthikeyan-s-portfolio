@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Heart, Share2, Linkedin } from 'lucide-react';
+import { Heart, Linkedin } from 'lucide-react';
 import { Button } from "@/components/ui/button";
 
 const Footer = () => {
