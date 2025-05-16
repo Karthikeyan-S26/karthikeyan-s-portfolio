@@ -25,7 +25,7 @@ To run this project locally:
 
 ```sh
 # Clone the repository
-git clone https://github.com/Karthikeyan-S26/portfolio-website.git
+git clone https://github.com/Karthikeyan-S6/portfolio-website.git
 
 # Navigate to the project directory
 cd portfolio-website
