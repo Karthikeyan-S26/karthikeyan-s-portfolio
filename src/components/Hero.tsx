@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Button } from "@/components/ui/button";
 import { ChevronDown, ArrowRight, Download } from 'lucide-react';
@@ -27,9 +26,16 @@ const Hero = () => {
                 View My Work <ArrowRight size={16} className="ml-2" />
               </a>
             </Button>
-            <Button variant="outline" className="border-portfolio-teal text-portfolio-teal hover:bg-portfolio-teal/10 font-medium py-2 px-6 rounded-md transition-all duration-300">
+            <a 
+              href="/resume.pdf" 
+              download 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="border-portfolio-teal text-portfolio-teal hover:bg-portfolio-teal/10 font-medium py-2 px-6 rounded-md flex items-center border transition"
+              style={{ textDecoration: 'none' }}
+            >
               <Download size={16} className="mr-2" /> Download Resume
-            </Button>
+            </a>
           </div>
         </div>
         
@@ -37,10 +43,12 @@ const Hero = () => {
           <div className="relative">
             <div className="h-64 w-64 md:h-80 md:w-80 rounded-full overflow-hidden border-2 border-portfolio-blue/30 p-2">
               <div className="w-full h-full rounded-full overflow-hidden bg-gradient-to-br from-portfolio-blue/20 to-portfolio-teal/20">
-                {/* Placeholder for profile image */}
-                <div className="w-full h-full bg-portfolio-dark/50 flex items-center justify-center">
-                  <span className="text-5xl text-portfolio-blue">K</span>
-                </div>
+                {/* Profile Image */}
+                <img
+                  src="/profile.jpg"
+                  alt="Profile"
+                  className="w-full h-full object-cover rounded-full"
+                />
               </div>
             </div>
             <div className="absolute -bottom-4 -right-4 h-24 w-24 rounded-full bg-portfolio-teal/20 backdrop-blur-md"></div>
