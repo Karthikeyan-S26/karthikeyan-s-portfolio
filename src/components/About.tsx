@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Briefcase, GraduationCap, Calendar } from 'lucide-react';
 
@@ -10,6 +9,13 @@ const About = () => {
       </div>
       <div className="container mx-auto px-4 md:px-8">
         <div className="flex flex-col items-center mb-12">
+          {/* Profile Image Start */}
+          <img
+            src="/profile.jpg"
+            alt="Profile"
+            className="w-32 h-32 rounded-full mb-4 border-4 border-portfolio-teal shadow-lg object-cover"
+          />
+          {/* Profile Image End */}
           <h2 className="text-3xl md:text-4xl font-bold mb-4">About Me</h2>
           <div className="h-1 w-20 bg-gradient-to-r from-portfolio-blue to-portfolio-teal rounded"></div>
         </div>
